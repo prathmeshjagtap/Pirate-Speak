@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+
+:root {
+  --primary-color: #1f2937;
+  --off-white: white;
+}
+
+body {
+  font-family: "Langar", cursive;
+  background-color: var(--off-white);
+  margin: 0%;
+}
+.navigation {
+  text-align: center;
+  padding-top: 0.2rem;
+  background-color: var(--primary-color);
+}
+.navigation h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  color: var(--off-white);
+  margin-bottom: 0%;
+}
+.image {
+  max-width: 150px;
+}
+.content {
+  text-align: center;
+  margin: auto;
+}
+
+.textarea {
+  border: 1px solid black;
+  width: 40%;
+  height: 20vh;
+  display: block;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Langar", cursive;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.content button {
+  cursor: pointer;
+  color: var(--off-white);
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: var(--primary-color);
+}
+.content button:hover {
+  background-color: #6b7280;
+  transition: all 0.2s;
+}
+.output {
+  border: 1px solid black;
+  height: 10vh;
+  width: 40%;
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding-bottom: 1rem;
+  color: var(--off-white);
+}
